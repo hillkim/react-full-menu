@@ -1,0 +1,129 @@
+/* 
+* @author Hillkim
+*/
+.menu {
+  height: 100%;
+  width: 33vw;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  background-color: rgb(58, 29, 29);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 10vh;
+  text-align: center;
+}
+.menu ul {
+  list-style: none;
+  text-align: center;
+  display: inline;
+}
+.menu li {
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+}
+.menu li a {
+  padding: 8px 8px 8px 32px;
+  text-transform: lowercase;
+  text-decoration: none;
+  font-size: 35px;
+  color: rgb(34, 97, 102);
+  display: block;
+  font-family: "Autour One", cursive;
+  transition: 0.3s;
+  margin: auto;
+}
+.menu li a:hover {
+  color: teal;
+  font-size: 37px;
+  transition: 0.4s;
+}
+.menu-button {
+  position: fixed;
+  z-index: 3;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding: 0;
+  border: none;
+  background: none;
+  outline: none;
+  margin-left: -8px;
+}
+.menu-button:active {
+  padding: 0;
+  border: none;
+  background: none;
+  outline: none;
+  transition: 0.5s;
+}
+.menu-icon {
+  height: 50px;
+  width: 50px;
+  background: transparent;
+  border-radius: 2px;
+  transition: 0.5s;
+  margin-left: 0;
+  margin-right: 10px;
+  padding: 0 0px 0 2px;
+}
+.menu-icon-open {
+  height: 50px;
+  width: 50px;
+  background: white;
+  transition: 0.5s;
+  margin: 0px;
+  margin-bottom: -3px;
+}
+.menu-icon-open:hover {
+  height: 55px;
+  width: 55px;
+  background: white;
+}
+.menu-open {
+  position: fixed;
+  z-index: 3;
+  right: 20px;
+  top: 20px;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding: 0;
+  border: none;
+  outline: none;
+  margin-left: -8px;
+}
+.menu-icon:hover {
+  height: 55px;
+  width: 55px;
+  background: transparent;
+}
+.menu-footer {
+  text-align: center;
+  margin: auto;
+}
+.menu-footer ul {
+  display: inline-flex;
+  margin-right: 10%;
+}
+.menu-footer li {
+  font-size: 10px;
+}
+.menu-footer li a img {
+  width: 30px;
+  height: 30px;
+  position: fixed;
+  bottom: 20px;
+}
+.menu-footer li a img:hover {
+  width: 35px;
+  height: 35px;
+}
+@media (max-width: 500px) {
+  .menu-footer ul {
+    margin-right: 15%;
+  }
+}

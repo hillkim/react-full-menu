@@ -2,10 +2,15 @@
   "name": "react-full-menu",
   "version": "1.0.0",
   "description": "A customizable React side menu with desktop and mobile support",
-  "main": "index.js",
+  "main": "lib/index.js",
   "repository": "https://github.com/hillkim/react-full-menu.git",
   "author": "Hillkim",
   "license": "MIT",
+  "types": "lib",
+  "scripts": {
+    "build": "tsc -p .",
+    "publish": "npm publish"
+  },
   "private": false,
   "peerDependencies": {
     "react": "^16.0.0"

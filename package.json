@@ -6,7 +6,10 @@
   "repository": "https://github.com/hillkim/react-full-menu.git",
   "author": "Hillkim",
   "license": "MIT",
-  "private": null,
+  "private": false,
+  "peerDependencies": {
+    "react": "^16.0.0"
+  },
   "devDependencies": {
     "@types/react": "^16.9.32",
     "@types/react-dom": "^16.9.6",

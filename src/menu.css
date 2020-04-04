@@ -3,14 +3,15 @@
 */
 .menu {
   width: 33vw;
-  height: 100%;
+  height: 100vh;
   position: fixed;
   z-index: 2;
   top: 0;
   right: 0;
-  background-color: rgb(104, 116, 118);
+  bottom: 0;
+  background-color: aqua;
   overflow-x: hidden;
-  transition: 0.5s;
+  transition: 0.6s;
   padding-top: 10vh;
   text-align: center;
 }
@@ -26,10 +27,9 @@
 }
 .menu li a {
   padding: 8px 8px 8px 32px;
-  text-transform: lowercase;
+  text-transform: capitalize;
   text-decoration: none;
-  font-size: 35px;
-  color: rgb(162, 175, 176);
+  font-size: 5vh;
   display: block;
   font-family: "Autour One", cursive;
   transition: 0.3s;
@@ -37,7 +37,7 @@
 }
 .menu li a:hover {
   color: teal;
-  font-size: 37px;
+  font-size: 6vh;
   transition: 0.4s;
 }
 .menu-button {
@@ -46,6 +46,7 @@
   right: 0;
   top: 0;
   bottom: 0;
+  background: transparent;
   overflow-x: hidden;
   transition: 0.5s;
   padding: auto;
@@ -63,31 +64,42 @@
   height: 50px;
   width: 50px;
   border-radius: 2px;
-  transition: 0.5s;
   margin-left: 0;
+  overflow: hidden;
   margin-right: 10px;
   padding: 0 0px 0 2px;
+  transition: all 0.6s ease;
+  -ms-transition: all 0.6s ease;
+  -webkit-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -o-transition: all 0.6s ease;
 }
 .menu-icon-open {
   height: 50px;
   width: 50px;
-  background: whitesmoke;
   transition: 0.5s;
-  border-radius: 50%;
+  overflow: hidden;
   margin: 0px;
+  transition: all 0.6s ease;
+  -ms-transition: all 0.6s ease;
+  -webkit-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -o-transition: all 0.6s ease;
 }
 .menu-icon-open:hover {
-  height: 55px;
-  border-radius: 50%;
-  padding: 5px;
-  width: 55px;
+  overflow: hidden;
+  transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(1600deg);
 }
 .menu-open {
   position: fixed;
   z-index: 3;
   right: 20px;
   top: 20px;
-  overflow-x: hidden;
+  overflow: hidden;
   transition: 0.5s;
   padding: 0;
   background: none;
@@ -96,30 +108,13 @@
   margin-left: -8px;
 }
 .menu-icon:hover {
-  height: 55px;
-  width: 55px;
+  overflow: hidden;
+  transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(1600deg);
   background: transparent;
-}
-.menu-footer {
-  text-align: center;
-  margin: auto;
-}
-.menu-footer ul {
-  display: inline-flex;
-  margin-right: 10%;
-}
-.menu-footer li {
-  font-size: 10px;
-}
-.menu-footer li a img {
-  width: 30px;
-  height: 30px;
-  position: fixed;
-  bottom: 20px;
-}
-.menu-footer li a img:hover {
-  width: 35px;
-  height: 35px;
 }
 
 @media (max-width: 800px) {
@@ -128,9 +123,24 @@
     width: 50vw;
   }
 }
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media only screen and (min-device-width: 200px) and (max-device-width: 480px) {
   .menu {
     height: 100vh;
     width: 100vw;
+  }
+  .menu-button {
+    height: 10vh;
+    width: 20vw;
+  }
+}
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 800px) {
+  .menu {
+    height: 100vh;
+    width: 50vw;
+  }
+  .menu-button {
+    height: 10vh;
+    width: 10vw;
   }
 }

@@ -44,7 +44,7 @@ const ReactFullMenu: React.FC<MenuProps> = ({
   ],
   fontFamily = '"Autour One", cursive',
 }) => {
-  const [isOpen, setOpen] = useState(true);
+  const [isOpen, setOpen] = useState(false);
   const toggleMenu = (): void => setOpen(!isOpen);
 
   const Menu = () => (

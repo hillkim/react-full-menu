@@ -35,4 +35,3 @@ interface MenuProps {
 }
 declare const ReactFullMenu: React.FC<MenuProps>;
 export default ReactFullMenu;
-//# sourceMappingURL=index.d.ts.map

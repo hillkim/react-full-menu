@@ -1,6 +1,6 @@
 {
   "name": "react-full-menu",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A customizable React side menu with desktop and mobile support",
   "main": "lib/index.js",
   "repository": "https://github.com/hillkim/react-full-menu.git",

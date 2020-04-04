@@ -5,4 +5,3 @@ export declare const CloseIcon: ({ color, }: {
 export declare const MenuIcon: ({ color, }: {
     color: string;
 }) => React.ReactElement<SVGAElement, string | ((props: any) => React.ReactElement<any, string | any | (new (props: any) => React.Component<any, any, any>)> | null) | (new (props: any) => React.Component<any, any, any>)>;
-//# sourceMappingURL=Icons.d.ts.map

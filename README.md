@@ -23,11 +23,11 @@
   const App = () => {
   const links = [
                { 
-                 to:"/home"
+                 to:"/home",
                  text:"Home Page"
                }, 
                { 
-                 to:"/page2"
+                 to:"/page2",
                  text:"My Awesome page"
                }];
   

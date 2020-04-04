@@ -3,6 +3,6 @@ import * as ReactDOM from "react-dom";
 
 import ReactFullMenu from "./src";
 
-const App = () => <ReactFullMenu />;
+const App = () => <ReactFullMenu linkColor="green" />;
 
 ReactDOM.render(<App />, document.getElementById("example"));

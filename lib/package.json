@@ -1,0 +1,24 @@
+{
+  "name": "react-full-menu",
+  "version": "1.0.0",
+  "description": "A customizable React side menu with desktop and mobile support",
+  "main": "lib/index.js",
+  "repository": "https://github.com/hillkim/react-full-menu.git",
+  "author": "Hillkim",
+  "maintainers": [
+    {
+      "name": "Hillkim",
+      "email": "hillkim@pm.me",
+      "url": "https://github.com/hillkim"
+    }
+  ],
+  "license": "MIT",
+  "types": "lib",
+  "scripts": {
+    "publish": "npm publish"
+  },
+  "private": false,
+  "peerDependencies": {
+    "react": "^16.0.0"
+  }
+}

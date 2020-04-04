@@ -1,5 +1,5 @@
 # React-Full-Menu
- A customizable React side menu with desktop and mobile support
+ A customizable React side menu component  with desktop and mobile support
  
  ## Installation
  ### Run

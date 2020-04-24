@@ -5,10 +5,15 @@
       <br>
     A customizable React side menu component  with desktop and mobile support
    </p>
- ## Installation
- ### Run
+   
+ ##  Installation
+ 
+ ###  Run
+ 
  > `yarn add react-full-menu`
+ 
         or
+        
  > `npn install react-full-menu`
  
  ### Dev Setup

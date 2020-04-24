@@ -1,6 +1,10 @@
+  [![DOWNLOADS](https://img.shields.io/npm/dt/react-full-menu?label=DOWNLOADS%20%20%E2%9D%AF&colorA=007C92&colorB=007C92&style=flat)](https://www.npmjs.com/package/react-full-menu)
+  
 # React-Full-Menu
- A customizable React side menu component  with desktop and mobile support
- 
+   <p>
+      <br>
+    A customizable React side menu component  with desktop and mobile support
+   </p>
  ## Installation
  ### Run
  > `yarn add react-full-menu`
